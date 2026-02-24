@@ -238,7 +238,44 @@ hr { border: 0; border-top: 1px solid #eee; margin: 12px 0; }
 
 @media (max-width: 768px) {
     .sidebar { display: none; }
-    .search-box { margin-left: 10px; }
-    .header-center { flex: 1; }
+    .header{padding: 0 8px; height: 48px;}
+    .logo {
+        width: 80px;
+        margin-left: 8px;
+    }
+
+    .search-box { margin-left: 5px; }
+    .search-box input {
+        padding: 5px 12px;
+        font-size: 14px;
+    }
+    .video-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 10px 0;
+    }
+    .thumb-container img {
+        border-radius: 0; 
+    }
+    .content {
+        padding: 0;
+    }
+    .v-info {
+        padding: 0 12px;
+    }
+    .v-text h3 {
+        font-size: 14px;
+    }
+    .category-bar {
+        padding: 8px 12px;
+        top: 48px;
+    }
+    .cat-item {
+        font-size: 13px;
+        padding: 4px 10px;
+    }
+    .header-center { 
+        margin-left: 5px;
+        flex: 1; }
     .mic-container { display: none; }
 }
