@@ -279,3 +279,9 @@ hr { border: 0; border-top: 1px solid #eee; margin: 12px 0; }
         flex: 1; }
     .mic-container { display: none; }
 }
+
+@media (max-width: 480px) {
+    .header-right .icon-btn:not(:last-child) {
+        display: none;
+    }
+}
