@@ -70,7 +70,7 @@ body {
 
 .header-right {
     display: flex;
-    align-items: center;
+    align-items: right;
     gap: 15px;
 }
 
@@ -285,3 +285,4 @@ hr { border: 0; border-top: 1px solid #eee; margin: 12px 0; }
         display: none;
     }
 }
+
